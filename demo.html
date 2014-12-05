@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Holder - placeholder emulate</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.holder_0.1.1.js"></script>
+	<script type="text/javascript">
+		$( document ).ready(function() {
+		    $('#forma').holder({
+		    	validate: true
+		    });
+		});
+	</script>
+</head>
+
+<body>
+	<form id="forma" action="" method="post">
+	<div>
+		<div>
+			<input id="texto" type="text" value="" alt="Escribe tu e-mail">
+			<input id="pass" type="password" value="" alt="Contraseña">
+		</div>
+	</div>
+		
+		<input id="submit" type="submit" value="Submit">
+	</form>
+</body>
+
+</html>
